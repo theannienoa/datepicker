@@ -24,8 +24,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 100%;
-  max-width: 360px;
+  width: 88vw;
   z-index: -1;
 }
 
@@ -63,8 +62,8 @@
 .datepicker-top-right::before,
 .datepicker-top-right::after {
   border-top: 0;
-  left: 10px;
-  top: -5px;
+  left: 0;
+  top: 0;
 }
 
 .datepicker-top-left::before,
@@ -75,7 +74,7 @@
 .datepicker-top-left::after,
 .datepicker-top-right::after {
   border-bottom-color: #fff;
-  top: -4px;
+  top: 0;
 }
 
 .datepicker-bottom-left,
@@ -131,7 +130,7 @@
   background-color: #fff;
   cursor: pointer;
   float: left;
-  height: 32px;
+  height: 28px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -186,7 +185,7 @@
 .datepicker-panel > ul > li[data-view="years current"],
 .datepicker-panel > ul > li[data-view="year current"],
 .datepicker-panel > ul > li[data-view="month current"] {
-  width: 71.5%;
+  width: 71.56%;
 }
 
 .datepicker-panel > ul[data-view="years"] > li,
