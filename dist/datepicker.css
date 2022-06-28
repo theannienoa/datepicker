@@ -24,7 +24,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 98vw;
+  width: 100%;
+  max-width: 360px;
   z-index: -1;
 }
 
@@ -185,14 +186,14 @@
 .datepicker-panel > ul > li[data-view="years current"],
 .datepicker-panel > ul > li[data-view="year current"],
 .datepicker-panel > ul > li[data-view="month current"] {
-  width: 64%;
+  width: 71.5%;
 }
 
 .datepicker-panel > ul[data-view="years"] > li,
 .datepicker-panel > ul[data-view="months"] > li {
-  height: 52.5px;
-  line-height: 52.5px;
-  width: 24%;
+  height: 48px;
+  line-height: 48px;
+  width: 25%;
 }
 
 .datepicker-panel > ul[data-view="week"] > li,
