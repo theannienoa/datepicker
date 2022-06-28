@@ -16,7 +16,7 @@
   line-height: 30px;
   position: fixed;
   -webkit-tap-highlight-color: transparent;
-  top: 0;
+  top: -8;
   -ms-touch-action: none;
   touch-action: none;
   -webkit-touch-callout: none;
@@ -24,7 +24,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 88vw;
+  width: 90%;
+  left: 5%;
   z-index: -1;
 }
 
@@ -129,7 +130,7 @@
 .datepicker-panel > ul > li {
   background-color: #fff;
   cursor: pointer;
-  float: left;
+  float: center;
   height: 28px;
   list-style: none;
   margin: 0;
