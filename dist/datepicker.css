@@ -24,7 +24,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 266px;
+  width: 98vw;
   z-index: -1;
 }
 
@@ -135,7 +135,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 14.28%;
+  width: 14.24%;
 }
 
 .datepicker-panel > ul > li:hover {
@@ -185,14 +185,14 @@
 .datepicker-panel > ul > li[data-view="years current"],
 .datepicker-panel > ul > li[data-view="year current"],
 .datepicker-panel > ul > li[data-view="month current"] {
-  width: 150px;
+  width: 64%;
 }
 
 .datepicker-panel > ul[data-view="years"] > li,
 .datepicker-panel > ul[data-view="months"] > li {
   height: 52.5px;
   line-height: 52.5px;
-  width: 52.5px;
+  width: 24%;
 }
 
 .datepicker-panel > ul[data-view="week"] > li,
