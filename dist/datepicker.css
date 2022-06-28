@@ -113,7 +113,7 @@
 .datepicker-panel > ul {
   margin: 0;
   padding: 0;
-  width: 102%;
+  width: 100%;
 }
 
 .datepicker-panel > ul::before,
@@ -185,7 +185,7 @@
 .datepicker-panel > ul > li[data-view="years current"],
 .datepicker-panel > ul > li[data-view="year current"],
 .datepicker-panel > ul > li[data-view="month current"] {
-  width: 71.5%;
+  width: 71.4%;
 }
 
 .datepicker-panel > ul[data-view="years"] > li,
