@@ -106,7 +106,7 @@
 .datepicker-top-right::after,
 .datepicker-bottom-right::before,
 .datepicker-bottom-right::after {
-  left: 0;
+  left: auto;
   right: 10px;
 }
 
