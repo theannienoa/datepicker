@@ -185,7 +185,7 @@
 .datepicker-panel > ul > li[data-view="years current"],
 .datepicker-panel > ul > li[data-view="year current"],
 .datepicker-panel > ul > li[data-view="month current"] {
-  width: 71.56%;
+  width: 71.5%;
 }
 
 .datepicker-panel > ul[data-view="years"] > li,
