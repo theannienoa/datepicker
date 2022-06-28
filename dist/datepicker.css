@@ -47,7 +47,6 @@
   box-sizing: content-box;
   position: absolute;
   z-index: 1;
-  top: -6px;
 }
 
 .datepicker-inline {
