@@ -54,7 +54,7 @@
     // The ISO language code (built-in: en-US)
     language: '',
     // The date string format
-    format: 'mm/dd/yyyy',
+    format: 'dd.mm.yyyy',
     // The initial date
     date: null,
     // The start view date
@@ -73,11 +73,11 @@
     // A string suffix to the year number.
     yearSuffix: '',
     // Days' name of the week.
-    days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    days: ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota'],
     // Shorter days' name
-    daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+    daysShort: ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'],
     // Shortest days' name
-    daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+    daysMin: ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'],
     // Months' name
     months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     // Shorter months' name
