@@ -79,9 +79,9 @@
     // Shortest days' name
     daysMin: ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'],
     // Months' name
-    months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+    months: ['Leden', 'Únor', 'Březen', 'Duben', 'Květen', 'Červen', 'Červenec', 'Srpen', 'Září', 'Ríjen', 'Listopad', 'Prosinec'],
     // Shorter months' name
-    monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    monthsShort: ['Led', 'Úno', 'Bře', 'Dub', 'Kvě', 'Čer', 'Čer', 'Srp', 'Zář', 'Ríj', 'Lis', 'Pro'],
     // A element tag for each item of years, months and days
     itemTag: 'li',
     // A class (CSS) for muted date item
