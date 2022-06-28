@@ -24,7 +24,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 272px;
+  width: 266px;
   z-index: -1;
 }
 
@@ -130,12 +130,12 @@
   background-color: #fff;
   cursor: pointer;
   float: left;
-  height: 30px;
+  height: 32px;
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 30px;
+  width: 14.28%;
 }
 
 .datepicker-panel > ul > li:hover {
