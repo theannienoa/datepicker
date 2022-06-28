@@ -13,10 +13,10 @@
   direction: ltr;
   font-size: 12px;
   left: 0;
-  line-height: 34px;
+  line-height: 30px;
   position: fixed;
   -webkit-tap-highlight-color: transparent;
-  top: -8px;
+  top: 0;
   -ms-touch-action: none;
   touch-action: none;
   -webkit-touch-callout: none;
@@ -24,7 +24,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 80%;
+  width: 84%;
   z-index: -1;
 }
 
