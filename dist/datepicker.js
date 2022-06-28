@@ -81,7 +81,7 @@
     // Months' name
     months: ['Leden', 'Únor', 'Březen', 'Duben', 'Květen', 'Červen', 'Červenec', 'Srpen', 'Září', 'Ríjen', 'Listopad', 'Prosinec'],
     // Shorter months' name
-    monthsShort: ['Led', 'Úno', 'Bře', 'Dub', 'Kvě', 'Čer', 'Čer', 'Srp', 'Zář', 'Ríj', 'Lis', 'Pro'],
+    monthsShort: ['Leden', 'Únor', 'Březen', 'Duben', 'Květen', 'Červen', 'Červenec', 'Srpen', 'Září', 'Ríjen', 'Listopad', 'Prosinec'],
     // A element tag for each item of years, months and days
     itemTag: 'li',
     // A class (CSS) for muted date item
@@ -695,7 +695,7 @@
           break;
 
         case 'month':
-          viewMonth = $.inArray($target.text(), options.months);
+          viewMonth = $.inArray($target.text(), options.monthsShort);
           date.setFullYear(viewYear); // Set date before month to avoid month changing (#195)
 
           date.setDate(getMinDay(viewYear, viewMonth, viewDay));
